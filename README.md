@@ -1,2 +1,0 @@
-# presentation
-show casing collaboration
