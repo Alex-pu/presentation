@@ -5,8 +5,7 @@ const LoanForm = () => {
     name: '',
     amount: '',
     duration: '',
-    // Additional details placeholder
-    // details: '', // Uncomment to add more details to the form
+     details: '', 
   });
 
   const handleChange = (e) => {
@@ -34,14 +33,13 @@ const LoanForm = () => {
         <input type="number" name="duration" value={formData.duration} onChange={handleChange} required />
       </label>
 
-      {/* 
-      Uncomment the following block to add additional details field to the form
+      
 
       <label>
-        Additional Details:
+        more Details:
         <input type="text" name="details" value={formData.details} onChange={handleChange} />
       </label>
-      */}
+      
 
       <button type="submit">Submit</button>
     </form>
